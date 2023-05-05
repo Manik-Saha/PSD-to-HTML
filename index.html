@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Task 01 Front-end Design Test</title>
+</head>
+
+<body>
+    <section class="top-section">
+        <nav class="navbar">
+            <div class="container">
+                <a class="logo-style mt-3" href="http://">LOGO</a>
+                <form class="d-lg-flex d-none mt-3">
+                    <ul class="d-lg-flex d-block">
+                        <li><a href="#feature">features</a> </li>
+                        <li><a href="#work">works</a> </li>
+                        <li><a href="#our-team">our team</a> </li>
+                        <li><a href="#testimonials">testimonials</a> </li>
+                        <li><a href="#downloads">downloads</a> </li>
+                    </ul>
+                </form>
+                <span class="mobile-menu d-lg-none d-block" onclick="openNav()">&#9776;</span>
+                <div id="myNav" class="overlay">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <div class="overlay-content">
+                        <ul>
+                            <li><a onclick="closeNav()" href="#feature">features</a> </li>
+                            <li><a onclick="closeNav()" href="#work">works</a> </li>
+                            <li><a onclick="closeNav()" href="#our-team">our team</a> </li>
+                            <li><a onclick="closeNav()" href="#testimonials">testimonials</a> </li>
+                            <li><a onclick="closeNav()" href="#downloads">downloads</a> </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="text-center mt-5 mb-5 pt-5 pb-5">
+            <h1>
+                Your favourite one page <br>
+                multi purpose template
+            </h1>
+            <p class="headline-bottom-text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br>
+                Reiciendis quae voluptatibus quos!
+            </p>
+            <button class="btn-find-out-more mb-5">Find Out More</button>
+        </div>
+    </section>
+    <section id="feature" class="container">
+        <div class="d-lg-flex d-md-flex d-sm-block justify-content-evenly mb-5">
+            <div class="text-center card-width">
+                <div class="w-100">
+                    <img class="feature-img" src="./images/easily customizeable.png" alt="">
+                    <p class="feature-img-headline">easily customized</p>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        Totam aliquid aut atque enim recusandae ipsam voluptates rem.
+                    </p>
+                </div>
+            </div>
+            <div class="text-center card-width">
+                <div>
+                    <img class="feature-img" src="./images/responsive ready.png" alt="">
+                    <p class="feature-img-headline">responsive ready</p>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        Totam aliquid aut atque enim recusandae ipsam voluptates rem.
+                    </p>
+                </div>
+            </div>
+            <div class="text-center card-width">
+                <div>
+                    <img class="feature-img" src="./images/modern design.png" alt="">
+                    <p class="feature-img-headline">modern design</p>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        Totam aliquid aut atque enim recusandae ipsam voluptates rem.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="d-lg-flex d-md-flex d-sm-block justify-content-evenly">
+            <div class="text-center card-width">
+                <div>
+                    <img class="feature-img" src="./images/clean code.png" alt="">
+                    <p class="feature-img-headline">clean code</p>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        Totam aliquid aut atque enim recusandae ipsam voluptates rem.
+                    </p>
+                </div>
+            </div>
+            <div class="text-center card-width">
+                <div>
+                    <img class="feature-img" src="./images/ready to ship.png" alt="">
+                    <p class="feature-img-headline">ready to ship</p>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        Totam aliquid aut atque enim recusandae ipsam voluptates rem.
+                    </p>
+                </div>
+            </div>
+            <div class="text-center card-width">
+                <div>
+                    <img class="feature-img" src="./images/doenload for free.png" alt="">
+                    <p class="feature-img-headline">download for free</p>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        Totam aliquid aut atque enim recusandae ipsam voluptates rem.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="work">
+        <div class="d-lg-flex d-md-flex d-sm-block flex-wrap mt-5">
+            <div class="image-container">
+                <img class="w-100" src="./images/work-1.png" alt="">
+                <div class="overlay-img">
+                    <p class="project-name pt-5">Project Name</p>
+                    <p class="project-name">UI Design Interface</p>
+                </div>
+            </div>
+            <div class="image-container">
+                <img class="w-100" src="./images/work-2.png" alt="">
+                <div class="overlay-img">
+                    <p class="project-name pt-5">Project Name</p>
+                    <p class="project-name">UI Design Interface</p>
+                </div>
+            </div>
+            <div class="image-container">
+                <img class="w-100" src="./images/work-3.png" alt="">
+                <div class="overlay-img">
+                    <p class="project-name pt-5">Project Name</p>
+                    <p class="project-name">UI Design Interface</p>
+                </div>
+            </div>
+            <div class="image-container">
+                <img class="w-100" src="./images/work-4.png" alt="">
+                <div class="overlay-img">
+                    <p class="project-name pt-5">Project Name</p>
+                    <p class="project-name">UI Design Interface</p>
+                </div>
+            </div>
+            <div class="image-container">
+                <img class="w-100" src="./images/work-5.png" alt="">
+                <div class="overlay-img">
+                    <p class="project-name pt-5">Project Name</p>
+                    <p class="project-name">UI Design Interface</p>
+                </div>
+            </div>
+            <div class="image-container">
+                <img class="w-100" src="./images/work-6.png" alt="">
+                <div class="overlay-img">
+                    <p class="project-name pt-5">Project Name</p>
+                    <p class="project-name">UI Design Interface</p>
+                </div>
+            </div>
+            <div class="image-container">
+                <img class="w-100" src="./images/work-7.png" alt="">
+                <div class="overlay-img">
+                    <p class="project-name pt-5">Project Name</p>
+                    <p class="project-name">UI Design Interface</p>
+                </div>
+            </div>
+            <div class="image-container">
+                <img class="w-100" src="./images/work-8.png" alt="">
+                <div class="overlay-img">
+                    <p class="project-name pt-5">Project Name</p>
+                    <p class="project-name">UI Design Interface</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="our-team" class="container d-lg-flex d-md-flex d-sm-block justify-content-center gap-3">
+        <div class="mt-5 card-width">
+            <div>
+                <img class="w-100" src="./images/ruth.png" alt="">
+                <p class="team-name">Ruth Woods</p>
+                <p class="team-designation">founder, ceo</p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Consequuntur ratione, ullam maiores deserunt doloribus amet quasi accusantium,
+                    optio aliquam laborum unde neque et quibusdam ex commodi fugiat sapiente
+                    sint delectus.
+                </p>
+                <p>
+                    <i class="social-media-icon fa-brands fa-facebook-f"></i>
+                    <i class="social-media-icon fa-brands fa-twitter"></i>
+                    <i class="social-media-icon fa-brands fa-linkedin-in"></i>
+                </p>
+            </div>
+        </div>
+        <div class="mt-5 card-width">
+            <div>
+                <img class="w-100" src="./images/timothy.png" alt="">
+                <p class="team-name">Trimothy Reed</p>
+                <p class="team-designation">co-ounder, developer</p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Consequuntur ratione, ullam maiores deserunt doloribus amet quasi accusantium,
+                    optio aliquam laborum unde neque et quibusdam ex commodi fugiat sapiente
+                    sint delectus.
+                </p>
+                <p>
+                    <i class="social-media-icon fa-brands fa-facebook-f"></i>
+                    <i class="social-media-icon fa-brands fa-twitter"></i>
+                    <i class="social-media-icon fa-brands fa-linkedin-in"></i>
+                </p>
+            </div>
+        </div>
+        <div class="mt-5 card-width">
+            <div>
+                <img class="w-100" src="./images/victoria.png" alt="">
+                <p class="team-name">Victoria Valdez</p>
+                <p class="team-designation">ui designer</p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Consequuntur ratione, ullam maiores deserunt doloribus amet quasi accusantium,
+                    optio aliquam laborum unde neque et quibusdam ex commodi fugiat sapiente
+                    sint delectus.
+                </p>
+                <p>
+                    <i class="social-media-icon fa-brands fa-facebook-f"></i>
+                    <i class="social-media-icon fa-brands fa-twitter"></i>
+                    <i class="social-media-icon fa-brands fa-linkedin-in"></i>
+                </p>
+            </div>
+        </div>
+        <div class="mt-5 card-width">
+            <div>
+                <img class="w-100" src="./images/beverly.png" alt="">
+                <p class="team-name">Beverly Little</p>
+                <p class="team-designation">data scientist</p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Consequuntur ratione, ullam maiores deserunt doloribus amet quasi accusantium,
+                    optio aliquam laborum unde neque et quibusdam ex commodi fugiat sapiente
+                    sint delectus.
+                </p>
+                <p>
+                    <i class="social-media-icon fa-brands fa-facebook-f"></i>
+                    <i class="social-media-icon fa-brands fa-twitter"></i>
+                    <i class="social-media-icon fa-brands fa-linkedin-in"></i>
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="testimonials" class="mt-5">
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+                <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+            </ol>
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="d-lg-flex d-block">
+                        <img class="d-block slider-image" src="./images/slider.png" alt="First slide">
+                        <div class="client-review">
+                            <p class="comment">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                Possimus aspernatur adipisci minima quae omnis sapiente at
+                                necessitatibus corporis ipsum architecto pariatur, vel consequatur
+                                consequuntur animi laudantium tempora aut repellendus magni?
+                            </p>
+                            <p class="client-name">Lorem ipsum dolor sit amet</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-lg-flex d-block">
+                        <img class="d-block slider-image" src="./images/slider.png" alt="First slide">
+                        <div class="client-review">
+                            <p class="comment">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                Possimus aspernatur adipisci minima quae omnis sapiente at
+                                necessitatibus corporis ipsum architecto pariatur, vel consequatur
+                                consequuntur animi laudantium tempora aut repellendus magni?
+                            </p>
+                            <p class="client-name">Lorem ipsum dolor sit amet</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-lg-flex d-block">
+                        <img class="d-block slider-image" src="./images/slider.png" alt="First slide">
+                        <div class="client-review">
+                            <p class="comment">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                Possimus aspernatur adipisci minima quae omnis sapiente at
+                                necessitatibus corporis ipsum architecto pariatur, vel consequatur
+                                consequuntur animi laudantium tempora aut repellendus magni?
+                            </p>
+                            <p class="client-name">Lorem ipsum dolor sit amet</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Controls -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <section id="downloads" class="mt-5 mb-5 text-center">
+        <h2>Are You Ready To Start? Download Now For Free!</h2>
+        <p class="aa">Lorem ipsum, dolor sit amet consectetur</p>
+        <button class="btn-download">Download Here</button>
+    </section>
+    <section id="footer">
+        <footer>
+            <div class="d-flex justify-content-around pb-5">
+                <div class="w-25">
+                    <p class="location">Location</p>
+                    <p class="address">
+                        3481 Milestone Place <br>
+                        Brevery Hills, CA-1235
+                    </p>
+                </div>
+                <div class="w-25 text-center">
+                    <p class="location">share with love</p>
+                    <p>
+                        <i class="social-media-icon-footer fa-brands fa-facebook-f"></i>
+                        <i class="social-media-icon-footer fa-brands fa-twitter"></i>
+                        <i class="social-media-icon-footer fa-brands fa-linkedin-in"></i>
+                    </p>
+                </div>
+                <div class="w-25">
+                    <p class="location">about us</p>
+                    <p class="short-detail">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Impedit non provident doloremque molestias.
+                    </p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>Copyright @2015. All Rights Reserved.</p>
+                <p>Made By, <strong>Manik Saha</strong></p>
+            </div>
+        </footer>
+    </section>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+</script>
+<script>
+    var myCarousel = document.querySelector('#myCarousel')
+    var carousel = new bootstrap.Carousel(myCarousel, {
+        interval: 5000, // Set the interval for automatic sliding
+        keyboard: true, // Allow keyboard navigation
+        pause: 'hover', // Pause on mouseover
+        wrap: true // Allow continuous sliding
+    })
+
+    function openNav() {
+        document.getElementById("myNav").style.height = "100%";
+    }
+
+    function closeNav() {
+        document.getElementById("myNav").style.height = "0%";
+    }
+</script>
+
+</html>

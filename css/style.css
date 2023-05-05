@@ -1,0 +1,352 @@
+.top-section {
+    background-image: url('../images/top.png');
+    color: #ffffff;
+}
+
+.logo-style {
+    font-size: 2em;
+    text-decoration: none;
+    font-family: "Raleway";
+    color: #ffffff;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Raleway";
+    color: #ffffff;
+}
+
+ul li {
+    padding-left: 1rem;
+}
+
+h1 {
+    font-size: 65px;
+    font-family: "OpenSans";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.092;
+}
+
+.headline-bottom-text {
+    font-size: 22px;
+    font-family: "Raleway";
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+}
+
+.btn-find-out-more {
+    width: 1900px;
+    height: 4108px;
+    font-size: 13px;
+    font-family: "Raleway";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.615;
+    border-radius: 2px;
+    background-color: rgb(232, 69, 69);
+    width: 200px;
+    height: 46px;
+}
+
+.feature-img {
+    height: 60px;
+}
+
+.card-width {
+    width: 18rem;
+}
+
+@media(max-width:768px) {
+    .card-width {
+        width: 100%;
+    }
+}
+
+.feature-img-headline {
+    font-size: 14px;
+    font-family: "Raleway";
+    color: rgb(45, 48, 51);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin-top: 1rem;
+}
+
+.mouse-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* semi-transparent black */
+    opacity: 0;
+    /* start with 0 opacity */
+    transition: opacity 0.3s ease-in-out;
+    /* animate the opacity change */
+}
+
+.mouse-hover:hover {
+    display: block;
+    text-align: center;
+    background-color: rgba(255, 2, 2, 0.3);
+    width: 25%;
+}
+
+.project-name {
+    font-size: 14px;
+    font-family: "Raleway";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+.team-name {
+    font-size: 22px;
+    font-family: "Raleway";
+    color: rgb(45, 48, 51);
+    line-height: 1.2;
+    text-align: left;
+    margin-top: 1rem;
+}
+
+.team-designation {
+    font-size: 13px;
+    font-family: "Raleway";
+    color: rgb(232, 69, 69);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: left;
+}
+
+.social-media-icon {
+    border: 1px solid rgb(60, 59, 59);
+    color: rgb(60, 59, 59);
+    cursor: pointer;
+    padding: 8px;
+}
+
+.social-media-icon-footer {
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    padding: 8px;
+}
+
+.social-media-icon:hover {
+    background-color: rgb(60, 59, 59);
+    color: rgb(255, 255, 255);
+}
+
+.client-review {
+    background-color: #53354a;
+    color: white;
+    padding: 3rem 2rem 3rem 3rem;
+}
+
+.social-media-icon-footer:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.comment {
+    font-size: 26px;
+    font-family: "Cardo";
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    line-height: 1.167;
+}
+
+.client-name {
+    font-size: 8px;
+    font-family: "Raleway";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.615;
+}
+
+h2 {
+    font-size: 28px;
+    font-family: "Raleway";
+    color: rgb(45, 48, 51);
+    line-height: 0.75;
+}
+
+.aa {
+    font-size: 13px;
+    font-family: "Raleway";
+    color: rgb(45, 48, 51);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.615;
+}
+
+.btn-download {
+    border-radius: 2px;
+    background-color: rgb(232, 69, 69);
+    color: white;
+    width: 280px;
+    height: 46px;
+}
+
+footer {
+    background-color: #3a3e64;
+    padding-top: 2rem;
+}
+
+.location {
+    font-size: 14px;
+    font-family: "Raleway";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.address {
+    font-size: 14px;
+    font-family: "Raleway";
+    color: rgba(255, 255, 255, 0.502);
+    line-height: 1.607;
+    text-align: center;
+}
+
+.short-detail {
+    font-size: 14px;
+    font-family: "Raleway";
+    color: rgba(255, 255, 255, 0.502);
+    line-height: 1.607;
+    text-align: center;
+}
+
+.footer-bottom {
+    background-color: #313454;
+    font-size: 14px;
+    font-family: "Myriad Pro";
+    color: rgb(128, 128, 128);
+    line-height: 1.607;
+    text-align: center;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+.image-container {
+    position: relative;
+    width: 25%;
+}
+
+.image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+@media(max-width:768px) {
+    .image-container {
+        width: 100%;
+    }
+}
+
+.overlay-img {
+    position: absolute;
+    text-align: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 0, 0, 0.5);
+    /* semi-transparent black */
+    opacity: 0;
+    /* start with 0 opacity */
+    transition: opacity 0.3s ease-in-out;
+    /* animate the opacity change */
+}
+
+.image-container:hover .overlay-img {
+    opacity: 1;
+    /* change the opacity on hover */
+}
+
+.mobile-menu {
+    border: 1px solid white;
+    padding: 5px 7px 5px 7px;
+}
+
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 768px) {
+    .overlay {
+        overflow-y: auto;
+    }
+
+    .overlay a {
+        font-size: 20px
+    }
+
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+.slider-image {
+    width: 50%;
+}
+
+@media(max-width: 768px) {
+    .slider-image {
+        width: 100%;
+    }
+}
